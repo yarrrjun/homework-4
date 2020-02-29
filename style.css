@@ -1,0 +1,84 @@
+/* QUIZ APP STYLING */
+
+* {
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+}
+
+h1 {
+    color: #ffffff;
+    position: center;
+
+}
+
+h3, h6, p {
+    color: #ffffff;
+}
+
+p {
+    padding: 5px;
+}
+
+button {
+    background-color: #AFEEEE;
+    border: none;
+    padding: 10px 24px;
+    border-radius: 8px;
+
+}
+
+button:hover {
+    color: #FF1493;
+    
+}
+
+
+.time {
+    color: #ffffff;
+}
+
+img {
+    padding: 20px;
+}
+
+/* RESPONSIVENESS */
+
+/* @media screen and (min-width: 1000px) and (min-height: 673px) {
+    .container {
+      width: 65%;
+    }
+  } */
+
+  /* @media screen and (max-width: 800px) { */
+    .container {
+      display: initial;
+    }
+    
+    main {
+    height: calc(100vh - 100px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    /* BG IMAGE JANET IS WATCHING YOU */
+    
+    background: linear-gradient(#818182,rgba(0,123,255,.5)), url(assets/janetjackson.jpeg) center / cover no-repeat;
+    }
+
+
+
+     .container {
+        width: 85%;
+        display: flex;
+  }
+
+  footer {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    background: #60B0AF;
+    height: 100px;
+  }
+
+/* }; */
