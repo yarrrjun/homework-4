@@ -10,7 +10,7 @@
 ![screenshot of program](assets/quizapp.png)
 
 ## App
-![Link to app] (http://yarrrjun.github.io/homework-4)
+http://yarrrjun.github.io/homework-4
 
 
 
